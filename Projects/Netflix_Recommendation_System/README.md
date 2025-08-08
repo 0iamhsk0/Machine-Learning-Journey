@@ -38,28 +38,33 @@ A machine learning-powered **movie recommendation system** inspired by Netflix, 
 
 ## Dataset
 
-The dataset contains anonymized Netflix user ratings. It has been preprocessed to remove noise and irrelevant columns.
 
-- 📁 File: `netflixData.csv`
+# Netflix Recommendation System
 
----
+This project demonstrates a Netflix recommendation system using anonymized user ratings. The dataset (`netflixData.csv`) has been preprocessed to remove noise and irrelevant columns.
 
 ## How to Run
 
-1. Clone the repository:
-    ```bash
-    git clone 
-    cd 
-    ```
-
-2. Install dependencies:
-    ```bash
+1. **Install dependencies**
+  - Open a terminal in this folder.
+  - Run:
+    ```powershell
     pip install -r requirements.txt
     ```
 
-3. Run the notebook:
-    Open `model.ipynb` in Jupyter Notebook or Colab and execute step by step.
+2. **Run the notebook**
+  - Open `Model.ipynb` in Jupyter Notebook or Colab.
+  - Execute the cells step by step to train and test the recommender system.
 
+## Files
+- `Model.ipynb`: Main notebook containing code and explanations.
+- `netflixData.csv`: Preprocessed dataset (add to folder if missing).
+- `requirements.txt`: List of required Python packages.
+
+## Future Improvements
+- Integrate content-based filtering (using genres, cast, etc.)
+- Hybrid recommender (combine collaborative + content-based)
+- Web UI for real-time recommendations
 ---
 
 ## Future Improvements
